@@ -1,5 +1,14 @@
 const allPacks = [
     {
+        name: "Ruby Hoshino"
+        id: "MSM-059"
+        desc: "This is my newer Oshi no Ko (16x) Texture Pack for Ruby Hoshino in a Pink Theme, lightweight for PvP on both mobile and PC. Best ever made."
+        yt: "dwSSL5pIuHo"
+        thumb: "https://pe56d.s3.amazonaws.com/o_1jlfgkbes13nuqig5jig2e2215.jpg"
+        tags: { origin: "Oshi no Ko", color: "Pink", res: "16x", char: "Ruby Hoshino"},
+        links: { j189: "https://link-target.net/1439889/h22K0mPBkyfE", j121: "", bedrock: "https://link-center.net/1439889/GujOY9FFlRpQ", nsfw: "" }
+    },
+    {
         name: "Ochako Uraraka",
         id: "MSM-058",
         desc: "This My Hero Academia pink 32x pack for Ochako Uraraka is built for PvP and steady FPS on both mobile and PC. Best ever made.",
