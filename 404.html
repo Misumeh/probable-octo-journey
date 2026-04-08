@@ -1,15 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv="refresh" content="3; url=/" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISUMEH // 404</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background: #121212; color: white; }
-        a { color: #00ffcc; }
+        :root {
+            --bg: #050505;
+            --accent: #9d4edd; /* Cyber-purple accent */
+            --text-main: #ffffff;
+            --text-dim: #444;
+            --grid: rgba(255, 255, 255, 0.03);
+        }
+
+        body {
+            background-color: var(--bg);
+            /* Subtle Grid Background */
+            background-image: linear-gradient(var(--grid) 1px, transparent 1px),
+                              linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+            background-size: 50px 50px;
+            color: var(--text-main);
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-transform: uppercase;
+            overflow: hidden;
+        }
+
+        /* Scanline Effect Overlay */
+        body::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
+                        linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+            z-index: 2;
+            background-size: 100% 2px, 3px 100%;
+            pointer-events: none;
+        }
+
+        .container { 
+            text-align: left; 
+            max-width: 800px;
+            padding: 20px;
+            z-index: 3;
+        }
+
+        .brand-header {
+            font-size: 0.7rem;
+            letter-spacing: 5px;
+            color: var(--accent);
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .hero-text {
+            font-size: clamp(4rem, 10vw, 8rem);
+            font-weight: 900;
+            line-height: 0.85;
+            margin: 0;
+            letter-spacing: -4px;
+        }
+
+        .outline {
+            color: transparent;
+            -webkit-text-stroke: 1px rgba(255,255,255,0.4);
+        }
+
+        .status {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            margin: 20px 0 40px 0;
+            border-left: 2px solid var(--accent);
+            padding-left: 15px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: var(--text-main);
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 15px 40px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            transition: all 0.2s ease;
+            background: rgba(255,255,255,0.02);
+        }
+
+        .btn:hover {
+            background: var(--text-main);
+            color: var(--bg);
+            border-color: var(--text-main);
+            box-shadow: 0 0 20px rgba(255,255,255,0.2);
+        }
+
+        .btn-active {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
     </style>
 </head>
 <body>
-    <h1>File Not Found</h1>
-    <p>The link you used might be old or broken. Redirecting you to the home page in 3 seconds...</p>
-    <p><a href="/">Click here if it doesn't happen automatically.</a></p>
+
+<div class="container">
+    <div class="brand-header">MISUMEH // INDEPENDENT CREATOR</div>
+    
+    <h1 class="hero-text">
+        SYSTEM<br>
+        <span class="outline">CRITICAL</span>
+    </h1>
+
+    <div class="status">
+        [ERROR_404] THE REQUESTED ANIME_PACK_FILE WAS NOT FOUND IN THE ARCHIVE.<br>
+        THE LINK IS DEPRECATED OR THE FILE HAS BEEN MOVED.
+    </div>
+    
+    <div class="nav">
+        <a href="/" class="btn btn-active">REBOOT SYSTEM</a>
+        <a href="/archive" class="btn">THE ARCHIVE</a>
+    </div>
+</div>
+
 </body>
 </html>
