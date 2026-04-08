@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MISUMEH // 404</title>
+    <title>MISUMEH // REROUTING</title>
+    
+    <meta http-equiv="refresh" content="5; url=/" />
+
     <style>
         :root {
             --bg: #050505;
             --accent: #9d4edd; /* Cyber-purple accent */
             --text-main: #ffffff;
-            --text-dim: #444;
+            --text-dim: #888;
             --grid: rgba(255, 255, 255, 0.03);
         }
 
         body {
             background-color: var(--bg);
-            /* Subtle Grid Background */
             background-image: linear-gradient(var(--grid) 1px, transparent 1px),
                               linear-gradient(90deg, var(--grid) 1px, transparent 1px);
             background-size: 50px 50px;
@@ -30,7 +32,6 @@
             overflow: hidden;
         }
 
-        /* Scanline Effect Overlay */
         body::before {
             content: " ";
             display: block;
@@ -72,11 +73,13 @@
         }
 
         .status {
-            font-size: 0.8rem;
+            font-size: 0.85rem;
+            line-height: 1.5;
             color: var(--text-dim);
             margin: 20px 0 40px 0;
             border-left: 2px solid var(--accent);
             padding-left: 15px;
+            text-transform: none; /* Makes the paragraph easier to read */
         }
 
         .nav {
@@ -93,6 +96,7 @@
             font-weight: bold;
             transition: all 0.2s ease;
             background: rgba(255,255,255,0.02);
+            text-transform: uppercase;
         }
 
         .btn:hover {
@@ -106,6 +110,14 @@
             background: var(--accent);
             border-color: var(--accent);
         }
+        
+        /* Simple blinking cursor animation for the timer feel */
+        .blink {
+            animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
     </style>
 </head>
 <body>
@@ -114,18 +126,17 @@
     <div class="brand-header">MISUMEH // INDEPENDENT CREATOR</div>
     
     <h1 class="hero-text">
-        SYSTEM<br>
-        <span class="outline">CRITICAL</span>
+        LOST IN<br>
+        <span class="outline">TRANSIT</span>
     </h1>
 
     <div class="status">
-        [ERROR_404] THE REQUESTED ANIME_PACK_FILE WAS NOT FOUND IN THE ARCHIVE.<br>
-        THE LINK IS DEPRECATED OR THE FILE HAS BEEN MOVED.
+        The pack you are looking for is still here, but this specific link is dead.<br>
+        Rerouting you to the main archive in <span class="blink" style="color: var(--text-main); font-weight: bold;">5 seconds...</span>
     </div>
     
     <div class="nav">
-        <a href="/" class="btn btn-active">REBOOT SYSTEM</a>
-        <a href="/archive" class="btn">THE ARCHIVE</a>
+        <a href="/" class="btn btn-active">TAKE ME THERE NOW</a>
     </div>
 </div>
 
