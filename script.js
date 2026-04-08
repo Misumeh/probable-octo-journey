@@ -629,7 +629,7 @@ function openPack(pack) {
         if(url) {
             const btn = document.createElement('button');
             btn.className = "w-full text-left py-4 px-6 border border-white/5 hover:bg-white hover:text-black transition-all text-[10px] font-black uppercase tracking-widest flex justify-between";
-            btn.innerHTML = `${labels[key]} <span>[FETCH LINK]</span>`;
+            btn.innerHTML = `${labels[key]} <span>[DOWNLOAD]</span>`;
             
             // --- FIX START ---
             btn.onclick = () => {
