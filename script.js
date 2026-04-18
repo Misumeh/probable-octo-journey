@@ -569,15 +569,22 @@ function applyFilters() {
     const res = document.getElementById('resFilter').value;
     const col = document.getElementById('colorFilter').value;
     const search = document.getElementById('searchInput').value.toLowerCase();
+    // Capturamos el estado del switch
+    const nsfwOnly = document.getElementById('nsfwFilter').checked;
 
     const filtered = allPacks.filter(p => {
-        const matchesVer = ver === 'all' || p.links[ver];
+        // Lógica: Si el switch está ON, el pack DEBE tener link nsfw. 
+        // Si está OFF, no filtramos por esto (pasa todo).
+        const matchesNsfw = !nsfwOnly || (p.links && p.links.nsfw);
+
+        // Tu lógica actual (con una pequeña corrección de seguridad)
+        const matchesVer = ver === 'all' || (p.links && p.links[ver]);
         const matchesRes = res === 'all' || p.tags.res === res;
         const matchesCol = col === 'all' || p.tags.color === col;
         const matchesSearch = p.name.toLowerCase().includes(search) || 
                               p.tags.origin.toLowerCase().includes(search);
         
-        return matchesVer && matchesRes && matchesCol && matchesSearch;
+        return matchesNsfw && matchesVer && matchesRes && matchesCol && matchesSearch;
     });
 
     renderGrid(filtered);
