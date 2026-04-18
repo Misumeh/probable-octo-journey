@@ -592,17 +592,19 @@ function renderGrid(packs) {
         card.className = "group cursor-pointer border border-white/5 p-4 hover:border-purple-600 transition-all bg-zinc-950/20";
         card.onclick = () => openPack(pack);
         
-        card.innerHTML = `
-            <div class="aspect-video overflow-hidden bg-zinc-900 mb-6">
-                <img src="${pack.thumb}" class="w-full h-full object-cover grayscale-0 group-hover:grayscale transition-all duration-700">
-            </div>
-            <div class="flex flex-wrap gap-2 mb-4">
-                <div class="tag-box">${pack.tags.res}</div>
-                <div class="tag-box">${pack.tags.color}</div>
-            </div>
-            <h4 class="text-2xl font-black uppercase tracking-tighter group-hover:text-purple-400 transition-all italic">${pack.name}</h4>
-            <p class="text-[10px] text-zinc-600 font-bold uppercase tracking-widest mt-1">${pack.tags.origin}</p>
-        `;
+card.innerHTML = `
+    <div class="aspect-video overflow-hidden bg-zinc-900 mb-6">
+        <img src="${pack.thumb}" class="w-full h-full object-cover grayscale-0 group-hover:grayscale transition-all duration-700">
+    </div>
+    <div class="flex flex-wrap gap-2 mb-4">
+        <div class="tag-box">${pack.tags.res}</div>
+        <div class="tag-box">${pack.tags.color}</div>
+        
+        ${pack.links.nsfw ? `<div class="tag-box border-red-500 text-red-500">NSFW</div>` : ''}
+    </div>
+    <h4 class="text-2xl font-black uppercase tracking-tighter group-hover:text-purple-400 transition-all italic">${pack.name}</h4>
+    <p class="text-[10px] text-zinc-600 font-bold uppercase tracking-widest mt-1">${pack.tags.origin}</p>
+`;
         grid.appendChild(card);
     });
 }
