@@ -277,7 +277,7 @@ const allPacks = [
         yt: "UIHBOedEP7E",
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtki952g1sl019mpam12fa158t15.png",
         tags: { origin: "Bocchi The Rock", color: "Red", res: "32x", char: "Ikuyo Kita" },
-        links: { j189: "https://link-hub.net/1439889/aeUpTpcrxdwZ", j121: "", bedrock: "https://direct-link.net/1439889/ldAMSHWoJ5pV", nsfw: "" }
+        links: { j189: "https://link-hub.net/1439889/aeUpTpcrxdwZ", j121: "", bedrock: "https://direct-link.net/1439889/ldAMSHWoJ5pV", nsfw: "https://www.patreon.com/posts/ikuyo-kita-18-155965200" }
 
     },
     {
@@ -287,7 +287,7 @@ const allPacks = [
         yt: "UIHBOedEP7E",
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtki64b91ucs1ie41k71l91tva1b.png",
         tags: { origin: "Bocchi the Rock", color: "Yellow", res: "32x", char: "Nijika Ijichi" },
-        links: { j189: "https://direct-link.net/1439889/yk7vcpEJKTBm", j121: "", bedrock: "https://direct-link.net/1439889/ASmN19XS4LSK", nsfw: "" }
+        links: { j189: "https://direct-link.net/1439889/yk7vcpEJKTBm", j121: "", bedrock: "https://direct-link.net/1439889/ASmN19XS4LSK", nsfw: "https://www.patreon.com/posts/nijika-ijichi-18-155964935" }
     },
     {
         name: "Ryo Yamada",
@@ -296,7 +296,7 @@ const allPacks = [
         yt: "UIHBOedEP7E",
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtkhv56m1hg9p42b2u1d9kg0s12.png",
         tags: { origin: "Bocchi The Rock", color: "Blue", res: "32x", char: "Ryo Yamada" },
-        links: { j189: "https://link-target.net/1439889/dW6AMZcP2SmT", j121: "", bedrock: "https://link-hub.net/1439889/ryFnoyFf9sJr", nsfw: "" }
+        links: { j189: "https://link-target.net/1439889/dW6AMZcP2SmT", j121: "", bedrock: "https://link-hub.net/1439889/ryFnoyFf9sJr", nsfw: "https://www.patreon.com/posts/ryo-yamada-18-155963871" }
 
     },
     {
@@ -306,7 +306,7 @@ const allPacks = [
         yt: "UIHBOedEP7E",
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtkhm3se1rc11mv81ogu19107tgr.png",
         tags: { origin: "Bocchi the Rock", color: "Pink", res: "32x", char: "Gotou Hitori" },
-        links: { j189: "https://link-target.net/1439889/aBpbqAZ5qWRQ", j121: "", bedrock: "https://direct-link.net/1439889/bsuSinA9Ffvq", nsfw: "" }
+        links: { j189: "https://link-target.net/1439889/aBpbqAZ5qWRQ", j121: "", bedrock: "https://direct-link.net/1439889/bsuSinA9Ffvq", nsfw: "https://www.patreon.com/posts/gotou-hitori-18-155962233" }
     },
     {
         name: "Nazuna Nanakusa",
