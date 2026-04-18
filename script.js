@@ -623,7 +623,7 @@ function openPack(pack) {
 
     const links = document.getElementById('modalLinks');
     links.innerHTML = '';
-    const labels = { j189: "Java 1.8.9", j121: "Java 1.21", bedrock: "Bedrock Edition", nsfw: "🔞 Restricted Source" };
+    const labels = { j189: "Java 1.8.9", j121: "Java 1.21", bedrock: "Bedrock Edition", nsfw: "🔞 Adult Version" };
 
     Object.entries(pack.links).forEach(([key, url]) => {
         if(url) {
