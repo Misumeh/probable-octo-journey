@@ -600,7 +600,7 @@ card.innerHTML = `
         <div class="tag-box">${pack.tags.res}</div>
         <div class="tag-box">${pack.tags.color}</div>
         
-        ${pack.links.nsfw ? `<div class="tag-box border-red-500 text-red-500">NSFW</div>` : ''}
+        ${pack.links.nsfw ? `<div class="tag-box border-red-500 text-red-500">NSFW AVAILABLE</div>` : ''}
     </div>
     <h4 class="text-2xl font-black uppercase tracking-tighter group-hover:text-purple-400 transition-all italic">${pack.name}</h4>
     <p class="text-[10px] text-zinc-600 font-bold uppercase tracking-widest mt-1">${pack.tags.origin}</p>
