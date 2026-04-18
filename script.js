@@ -105,7 +105,7 @@ const allPacks = [
         yt: "eIDiNaPJCdM",
         thumb: "https://img.youtube.com/vi/eIDiNaPJCdM/maxresdefault.jpg",
         tags: { origin: "Alya Sometimes Hides Her Feelings in Russian", color: "Cyan", res: "16x", char: "Alya" },
-        links: { j189: "https://link-center.net/1439889/OAefVBxzQGCU", j121: "", bedrock: "https://link-center.net/1439889/NbfIf0pfysAN", nsfw: "" }
+        links: { j189: "https://link-center.net/1439889/OAefVBxzQGCU", j121: "", bedrock: "https://link-center.net/1439889/NbfIf0pfysAN", nsfw: "https://www.patreon.com/posts/alya-18-texture-155908330" }
     },
        {
         name: "Hayase Nagatoro (Christmas)",
