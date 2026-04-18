@@ -143,19 +143,23 @@
                     <option value="Pink">Pink</option>
                     <option value="Orange">Orange</option>
                 </select>
-<div class="flex items-center gap-3"> 
+<div class="flex items-center gap-3">
     <label class="relative inline-flex items-center cursor-pointer group">
         <input type="checkbox" id="nsfwFilter" onchange="applyFilters()" class="sr-only peer">
-        <div class="w-10 h-5 bg-zinc-800 border border-white/10 rounded-full peer 
+        
+        <div class="w-10 h-5 bg-zinc-800 border border-white/10 rounded-full 
                     peer-checked:after:translate-x-full peer-checked:after:border-white 
                     after:content-[''] after:absolute after:top-[2px] after:left-[2px] 
                     after:bg-white after:border-gray-300 after:border after:rounded-full 
-                    after:h-4 after:w-4 after:transition-all peer-checked:bg-purple-600">
+                    after:h-4 after:w-4 after:transition-all peer-checked:bg-red-600">
         </div>
+
+        <span class="ml-3 text-[10px] font-black uppercase tracking-widest transition-colors
+                     text-zinc-500 
+                     peer-checked:text-red-500">
+            Only NSFW
+        </span>
     </label>
-    <span class="text-[10px] font-black uppercase tracking-widest text-zinc-500 peer-checked:text-purple-400 select-none">
-        Only NSFW
-    </span>
 </div>
             </div>
             <input type="text" id="searchInput" oninput="applyFilters()" placeholder="Search character/series..." 
