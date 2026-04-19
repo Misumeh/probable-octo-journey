@@ -216,12 +216,12 @@ const allPacks = [
         links: { j189: "https://link-target.net/1439889/aOSH9b5IDKpo", j121: "", bedrock: "https://link-center.net/1439889/hNscoVznlpot", nsfw: "https://www.patreon.com/posts/nezuko-kamado-18-156014180" }
     },
     {
-        name: "Mitsuri Kanorji",
+        name: "Mitsuri Kanroji",
         id: "MSM-035",
-        desc: "This Demon Slayer pink 128x pack for Mitsuri Kanorji is sharp for desktop and great for detail work. Best ever made.",
+        desc: "This Demon Slayer pink 128x pack for Mitsuri Kanriji is sharp for desktop and great for detail work. Best ever made.",
         yt: "vII2eKAAses",
         thumb: "https://pe56d.s3.amazonaws.com/o_1h4udr8i01hjt1v1i1j7vqrhkd315.png",
-        tags: { origin: "Demon Slayer", color: "Pink", res: "128x", char: "Mitsuri Kanorji" },
+        tags: { origin: "Demon Slayer", color: "Pink", res: "128x", char: "Mitsuri Kanroji" },
         links: { j189: "https://link-hub.net/1439889/MlW5tzJVyQnu", j121: "", bedrock: "https://link-target.net/1439889/K7fikFcBDXYF", nsfw: "https://www.patreon.com/posts/mitsuri-kanroji-156014726" }
     },
     {
