@@ -249,7 +249,7 @@ const allPacks = [
         yt: "UywwiSti9GA", 
         thumb: "https://img.youtube.com/vi/UywwiSti9GA/maxresdefault.jpg",
         tags: { origin: "Oshi no Ko", color: "Purple", res: "128x", char: "Ai Hoshino" },
-        links: { j189: "https://direct-link.net/1439889/J3dhF0zpWAFi", j121: "", bedrock: "https://link-target.net/1439889/NnrmDHy3eRkb", nsfw: "" }
+        links: { j189: "https://direct-link.net/1439889/J3dhF0zpWAFi", j121: "", bedrock: "https://link-target.net/1439889/NnrmDHy3eRkb", nsfw: "https://www.patreon.com/posts/ai-hoshino-18-155983369" }
     },
     {
         name: "Akari Watanabe",
