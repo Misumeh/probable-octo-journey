@@ -33,7 +33,7 @@ const allPacks = [
         yt: "FO5pMFC1pW0",
         thumb: "https://pe56d.s3.amazonaws.com/o_1iuu9460k1gvs19h91i7t1q6k16di15.png",
         tags: { origin: "Demon Slayer", color: "Purple", res: "32x", char: "Kanao Tsuyuri" },
-        links: { j189: "https://link-hub.net/1439889/og5CzmqaFodN", j121: "", bedrock: "https://link-hub.net/1439889/og5CzmqaFodN", nsfw: "" }
+        links: { j189: "https://link-hub.net/1439889/og5CzmqaFodN", j121: "", bedrock: "https://link-hub.net/1439889/og5CzmqaFodN", nsfw: "https://www.patreon.com/posts/kanao-tsuyuri-18-156013748" }
     },
             {
         name: "Sung JinWoo",
@@ -87,7 +87,7 @@ const allPacks = [
         yt: "KOgxRvrjevI",
         thumb: "https://img.youtube.com/vi/KOgxRvrjevI/maxresdefault.jpg",
         tags: { origin: "Alya Sometimes HidesHer Feelings in Russian", color: "Orange", res: "16x", char: "Masha" },
-        links: { j189: "https://direct-link.net/1439889/pbPW3cjTKj1n", j121: "", bedrock: "https://link-center.net/1439889/uLxjT3B0zXoY", nsfw: "https://www.patreon.com/collection/2118196?view=expanded" }
+        links: { j189: "https://direct-link.net/1439889/pbPW3cjTKj1n", j121: "", bedrock: "https://link-center.net/1439889/uLxjT3B0zXoY", nsfw: "https://www.patreon.com/posts/masha-18-texture-155982677" }
     },
     {
         name: "Yuki Suou",
@@ -96,7 +96,7 @@ const allPacks = [
         yt: "OWl2yaWBP8Q",
         thumb: "https://img.youtube.com/vi/OWl2yaWBP8Q/maxresdefault.jpg",
         tags: { origin: "Alya Sometimes HidesHer Feelings in Russian", color: "Purple", res: "16x", char: "Yuki Suou" },
-        links: { j189: "https://direct-link.net/1439889/9NHYsvGS3MRL", j121: "", bedrock: "https://link-hub.net/1439889/Y7IWKuHeXvoJ", nsfw: "https://www.patreon.com/collection/2118196?view=expanded" }
+        links: { j189: "https://direct-link.net/1439889/9NHYsvGS3MRL", j121: "", bedrock: "https://link-hub.net/1439889/Y7IWKuHeXvoJ", nsfw: "https://www.patreon.com/posts/yuki-suou-18-155982794" }
     },
     {
         name: "Alya",
@@ -105,7 +105,7 @@ const allPacks = [
         yt: "eIDiNaPJCdM",
         thumb: "https://img.youtube.com/vi/eIDiNaPJCdM/maxresdefault.jpg",
         tags: { origin: "Alya Sometimes Hides Her Feelings in Russian", color: "Cyan", res: "16x", char: "Alya" },
-        links: { j189: "https://link-center.net/1439889/OAefVBxzQGCU", j121: "", bedrock: "https://link-center.net/1439889/NbfIf0pfysAN", nsfw: "https://www.patreon.com/collection/2118196?view=expanded" }
+        links: { j189: "https://link-center.net/1439889/OAefVBxzQGCU", j121: "", bedrock: "https://link-center.net/1439889/NbfIf0pfysAN", nsfw: "https://www.patreon.com/posts/alya-18-texture-155908330?" }
     },
        {
         name: "Hayase Nagatoro (Christmas)",
@@ -141,7 +141,7 @@ const allPacks = [
         yt: "Z5rEf20Toxk",
         thumb: "https://i3.ytimg.com/vi/Z5rEf20Toxk/hqdefault.jpg",
         tags: { origin: "Chainsaw Man", color: "Purple", res: "32x", char: "Reze" },
-        links: { j189: "https://direct-link.net/1439889/S2XvVvXuj9M7", j121: "", bedrock: "https://link-center.net/1439889/sgat550MrxAZ", nsfw: "" }
+        links: { j189: "https://direct-link.net/1439889/S2XvVvXuj9M7", j121: "", bedrock: "https://link-center.net/1439889/sgat550MrxAZ", nsfw: "https://www.patreon.com/posts/reze-18-texture-156012245" }
     },
     {
         name: "Yae Miko",
@@ -168,7 +168,7 @@ const allPacks = [
         yt: "0rraYpY3Vv0",
         thumb: "https://img.youtube.com/vi/0rraYpY3Vv0/maxresdefault.jpg",
         tags: { origin: "Demon Slayer", color: "Purple", res: "16x", char: "Shinobu Kocho" },
-        links: { j189: "https://direct-link.net/1439889/HmVv3CVyBiM9", j121: "", bedrock: "https://direct-link.net/1439889/HmVv3CVyBiM9", nsfw: "" }
+        links: { j189: "https://direct-link.net/1439889/HmVv3CVyBiM9", j121: "", bedrock: "https://direct-link.net/1439889/HmVv3CVyBiM9", nsfw: "https://www.patreon.com/posts/shinobu-kocho-18-156014564" }
     },
     {
         name: "Noelle Silva",
@@ -195,7 +195,7 @@ const allPacks = [
         yt: "fWLojO65es4",
         thumb: "https://img.youtube.com/vi/fWLojO65es4/maxresdefault.jpg",
         tags: { origin: "Demon Slayer", color: "Green", res: "256x", char: "Daki" },
-        links: { j189: "https://link-hub.net/1439889/iMiHgy9jgDkO", j121: "", bedrock: "https://link-center.net/1439889/cbH3s327QmkK", nsfw: "" }
+        links: { j189: "https://link-hub.net/1439889/iMiHgy9jgDkO", j121: "", bedrock: "https://link-center.net/1439889/cbH3s327QmkK", nsfw: "https://www.patreon.com/posts/156012953" }
     },
     {
         name: "Gamo-chan",
@@ -213,7 +213,7 @@ const allPacks = [
         yt: "lRAiw2e-uQY",
         thumb: "https://pe56d.s3.amazonaws.com/o_1h5uqik341uj6ucn1qmq107i1fa415.png",
         tags: { origin: "Demon Slayer", color: "Pink", res: "32x", char: "Nezuko Kamado" },
-        links: { j189: "https://link-target.net/1439889/aOSH9b5IDKpo", j121: "", bedrock: "https://link-center.net/1439889/hNscoVznlpot", nsfw: "" }
+        links: { j189: "https://link-target.net/1439889/aOSH9b5IDKpo", j121: "", bedrock: "https://link-center.net/1439889/hNscoVznlpot", nsfw: "https://www.patreon.com/posts/nezuko-kamado-18-156014180" }
     },
     {
         name: "Mitsuri Kanorji",
@@ -222,7 +222,7 @@ const allPacks = [
         yt: "vII2eKAAses",
         thumb: "https://pe56d.s3.amazonaws.com/o_1h4udr8i01hjt1v1i1j7vqrhkd315.png",
         tags: { origin: "Demon Slayer", color: "Pink", res: "128x", char: "Mitsuri Kanorji" },
-        links: { j189: "https://link-hub.net/1439889/MlW5tzJVyQnu", j121: "", bedrock: "https://link-target.net/1439889/K7fikFcBDXYF", nsfw: "" }
+        links: { j189: "https://link-hub.net/1439889/MlW5tzJVyQnu", j121: "", bedrock: "https://link-target.net/1439889/K7fikFcBDXYF", nsfw: "https://www.patreon.com/posts/mitsuri-kanroji-156014726" }
     },
     {
         name: "Akane Kurokawa",
@@ -277,7 +277,7 @@ const allPacks = [
         yt: "UIHBOedEP7E",
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtki952g1sl019mpam12fa158t15.png",
         tags: { origin: "Bocchi The Rock", color: "Red", res: "32x", char: "Ikuyo Kita" },
-        links: { j189: "https://link-hub.net/1439889/aeUpTpcrxdwZ", j121: "", bedrock: "https://direct-link.net/1439889/ldAMSHWoJ5pV", nsfw: "https://www.patreon.com/collection/2117805?view=expanded" }
+        links: { j189: "https://link-hub.net/1439889/aeUpTpcrxdwZ", j121: "", bedrock: "https://direct-link.net/1439889/ldAMSHWoJ5pV", nsfw: "https://www.patreon.com/posts/ikuyo-kita-18-155965200" }
 
     },
     {
@@ -287,7 +287,7 @@ const allPacks = [
         yt: "UIHBOedEP7E",
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtki64b91ucs1ie41k71l91tva1b.png",
         tags: { origin: "Bocchi the Rock", color: "Yellow", res: "32x", char: "Nijika Ijichi" },
-        links: { j189: "https://direct-link.net/1439889/yk7vcpEJKTBm", j121: "", bedrock: "https://direct-link.net/1439889/ASmN19XS4LSK", nsfw: "https://www.patreon.com/collection/2117805?view=expanded" }
+        links: { j189: "https://direct-link.net/1439889/yk7vcpEJKTBm", j121: "", bedrock: "https://direct-link.net/1439889/ASmN19XS4LSK", nsfw: "https://www.patreon.com/posts/nijika-ijichi-18-155964935" }
     },
     {
         name: "Ryo Yamada",
@@ -296,7 +296,7 @@ const allPacks = [
         yt: "UIHBOedEP7E",
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtkhv56m1hg9p42b2u1d9kg0s12.png",
         tags: { origin: "Bocchi The Rock", color: "Blue", res: "32x", char: "Ryo Yamada" },
-        links: { j189: "https://link-target.net/1439889/dW6AMZcP2SmT", j121: "", bedrock: "https://link-hub.net/1439889/ryFnoyFf9sJr", nsfw: "https://www.patreon.com/collection/2117805?view=expanded" }
+        links: { j189: "https://link-target.net/1439889/dW6AMZcP2SmT", j121: "", bedrock: "https://link-hub.net/1439889/ryFnoyFf9sJr", nsfw: "https://www.patreon.com/posts/ryo-yamada-18-155963871" }
 
     },
     {
@@ -306,7 +306,7 @@ const allPacks = [
         yt: "UIHBOedEP7E",
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtkhm3se1rc11mv81ogu19107tgr.png",
         tags: { origin: "Bocchi the Rock", color: "Pink", res: "32x", char: "Gotou Hitori" },
-        links: { j189: "https://link-target.net/1439889/aBpbqAZ5qWRQ", j121: "", bedrock: "https://direct-link.net/1439889/bsuSinA9Ffvq", nsfw: "https://www.patreon.com/collection/2117805?view=expanded" }
+        links: { j189: "https://link-target.net/1439889/aBpbqAZ5qWRQ", j121: "", bedrock: "https://direct-link.net/1439889/bsuSinA9Ffvq", nsfw: "https://www.patreon.com/posts/gotou-hitori-18-155962233" }
     },
     {
         name: "Nazuna Nanakusa",
@@ -352,7 +352,7 @@ const allPacks = [
         yt: "QsI5B8tnNr8",
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtkclot71oc3149l12ap38j137cr.png",
         tags: { origin: "Darling in the Franxx", color: "Pink", res: "32x", char: "Zero Two" },
-        links: { j189: "https://link-hub.net/1439889/FDnChK4TZ9Cz", j121: "", bedrock: "https://link-target.net/1439889/VYe6BBVrh0aQ", nsfw: "" }
+        links: { j189: "https://link-hub.net/1439889/FDnChK4TZ9Cz", j121: "", bedrock: "https://link-target.net/1439889/VYe6BBVrh0aQ", nsfw: "https://www.patreon.com/posts/156012819" }
     },
         {
         name: "Sumi Sakurasawa V2",
