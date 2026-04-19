@@ -360,8 +360,8 @@ const allPacks = [
         desc: "The Rent a Girlfriend orange 32x pack for Sumi Sakurasawa V2 is light on mobile and sharp in PvP duels. Best ever made.",
         yt: "QL_YF4annQI", 
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtkh3bbg1kpf1t8p1671ucb4rmr.png",
-        tags: { origin: "Rent a Girlfriend", color: "Orange", res: "32x", char: "Ruka Sarashina" },
-        links: { j189: "https://link-hub.net/1439889/GoMsleQgfyoR", j121: "", bedrock: "https://link-center.net/1439889/5GING3WMmb2N", nsfw: "" }
+        tags: { origin: "Rent a Girlfriend", color: "Orange", res: "32x", char: "Sumi Sakurasawa" },
+        links: { j189: "https://link-hub.net/1439889/GoMsleQgfyoR", j121: "", bedrock: "https://link-center.net/1439889/5GING3WMmb2N", nsfw: "https://www.patreon.com/posts/sumi-sakurasawa-156038246" }
     },
         {
         name: "Mami Nanami V2",
@@ -370,7 +370,7 @@ const allPacks = [
         yt: "QL_YF4annQI", 
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtkhb7kc190t1n9o1atd11gkh6qr.png",
         tags: { origin: "Rent a Girlfriend", color: "Yellow", res: "32x", char: "Ruka Sarashina" },
-        links: { j189: "https://link-hub.net/1439889/FBE7JXWpD5Df", j121: "", bedrock: "https://link-center.net/1439889/I4bhn5FyK0Cs", nsfw: "" }
+        links: { j189: "https://link-hub.net/1439889/FBE7JXWpD5Df", j121: "", bedrock: "https://link-center.net/1439889/I4bhn5FyK0Cs", nsfw: "https://www.patreon.com/posts/mami-nanami-18-156038133" }
     },
         {
         name: "Chizuru Mizuhara V2",
@@ -379,7 +379,7 @@ const allPacks = [
         yt: "QL_YF4annQI", 
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtkh6phppb81691susevd158g12.png",
         tags: { origin: "Rent a Girlfriend", color: "Pink", res: "32x", char: "Chizuru Mizuhara" },
-        links: { j189: "https://link-center.net/1439889/n2jL9tuaRKGS", j121: "", bedrock: "https://link-hub.net/1439889/xXPPvWpEpttN", nsfw: "" }
+        links: { j189: "https://link-center.net/1439889/n2jL9tuaRKGS", j121: "", bedrock: "https://link-hub.net/1439889/xXPPvWpEpttN", nsfw: "https://www.patreon.com/posts/chizuru-mizuhara-156037734" }
     },
     {
         name: "Ruka Sarashina V2",
@@ -388,7 +388,7 @@ const allPacks = [
         yt: "EyNaGR3NCBQ", 
         thumb: "https://pe56d.s3.amazonaws.com/o_1gtkgtfqn1g737ortti1rf82bo15.png",
         tags: { origin: "Rent a Girlfriend", color: "Blue", res: "32x", char: "Ruka Sarashina" },
-        links: { j189: "https://link-target.net/1439889/raXthUB2fPX2", j121: "", bedrock: "https://link-hub.net/1439889/ZITWIDMIm4xP", nsfw: "" }
+        links: { j189: "https://link-target.net/1439889/raXthUB2fPX2", j121: "", bedrock: "https://link-hub.net/1439889/ZITWIDMIm4xP", nsfw: "https://www.patreon.com/posts/ruka-sarashina-156037941" }
     },
     {
         name: "Shoko Makinohara",
@@ -469,7 +469,7 @@ const allPacks = [
         yt: "yusDJKvr5bE", 
         thumb: "https://img.youtube.com/vi/yusDJKvr5bE/maxresdefault.jpg",
         tags: { origin: "Rent a Girlfriend", color: "Orange", res: "32x", char: "Sumi Sakurasawa" },
-        links: { j189: "https://link-target.net/1439889/DH5DTtSgT8M3", j121: "", bedrock: "https://link-center.net/1439889/lhfKsq6MOSF6", nsfw: "" }
+        links: { j189: "https://link-target.net/1439889/DH5DTtSgT8M3", j121: "", bedrock: "https://link-center.net/1439889/lhfKsq6MOSF6", nsfw: "https://www.patreon.com/posts/sumi-sakurasawa-156038246" }
     },
      {
         name: "Mami Nanami",
@@ -478,7 +478,7 @@ const allPacks = [
         yt: "u8KVEnkUU0c", 
         thumb: "https://img.youtube.com/vi/u8KVEnkUU0c/maxresdefault.jpg",
         tags: { origin: "Rent a Girlfriend", color: "Yellow", res: "32x", char: "Mami Nanami" },
-        links: { j189: "https://link-target.net/1439889/bMNUQJVBiGIr", j121: "", bedrock: "https://link-target.net/1439889/JkvEriZBB1TA", nsfw: "" }
+        links: { j189: "https://link-target.net/1439889/bMNUQJVBiGIr", j121: "", bedrock: "https://link-target.net/1439889/JkvEriZBB1TA", nsfw: "https://www.patreon.com/posts/mami-nanami-18-156038133" }
     },
      {
         name: "Chizuru Mizuhara",
@@ -487,7 +487,7 @@ const allPacks = [
         yt: "I_VIhEVNvBM", 
         thumb: "https://img.youtube.com/vi/I_VIhEVNvBM/maxresdefault.jpg",
         tags: { origin: "Rent a Girlfriend", color: "Pink", res: "32x", char: "Chizuru Mizuhara" },
-        links: { j189: "https://link-target.net/1439889/sFs56rr5vqUH", j121: "", bedrock: "https://link-hub.net/1439889/wB59AovvIokA", nsfw: "" }
+        links: { j189: "https://link-target.net/1439889/sFs56rr5vqUH", j121: "", bedrock: "https://link-hub.net/1439889/wB59AovvIokA", nsfw: "https://www.patreon.com/posts/chizuru-mizuhara-156037734" }
     },
      {
         name: "Ruka Sarashina",
@@ -496,7 +496,7 @@ const allPacks = [
         yt: "kw_pxRkhbZc", 
         thumb: "https://img.youtube.com/vi/kw_pxRkhbZc/maxresdefault.jpg",
         tags: { origin: "Rent a Girlfriend", color: "Blue", res: "32x", char: "Ruka Sarashina" },
-        links: { j189: "https://link-target.net/1439889/RgwgrECbT2yH", j121: "", bedrock: "https://link-center.net/1439889/E1gyZbgfLUyy", nsfw: "" }
+        links: { j189: "https://link-target.net/1439889/RgwgrECbT2yH", j121: "", bedrock: "https://link-center.net/1439889/E1gyZbgfLUyy", nsfw: "https://www.patreon.com/posts/ruka-sarashina-156037941" }
     },
     {
         name: "Naruto Uzumaki",
