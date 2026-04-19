@@ -87,7 +87,7 @@ const allPacks = [
         yt: "KOgxRvrjevI",
         thumb: "https://img.youtube.com/vi/KOgxRvrjevI/maxresdefault.jpg",
         tags: { origin: "Alya Sometimes HidesHer Feelings in Russian", color: "Orange", res: "16x", char: "Masha" },
-        links: { j189: "https://direct-link.net/1439889/pbPW3cjTKj1n", j121: "", bedrock: "https://link-center.net/1439889/uLxjT3B0zXoY", nsfw: "" }
+        links: { j189: "https://direct-link.net/1439889/pbPW3cjTKj1n", j121: "", bedrock: "https://link-center.net/1439889/uLxjT3B0zXoY", nsfw: "https://www.patreon.com/collection/2118196?view=expanded" }
     },
     {
         name: "Yuki Suou",
@@ -96,7 +96,7 @@ const allPacks = [
         yt: "OWl2yaWBP8Q",
         thumb: "https://img.youtube.com/vi/OWl2yaWBP8Q/maxresdefault.jpg",
         tags: { origin: "Alya Sometimes HidesHer Feelings in Russian", color: "Purple", res: "16x", char: "Yuki Suou" },
-        links: { j189: "https://direct-link.net/1439889/9NHYsvGS3MRL", j121: "", bedrock: "https://link-hub.net/1439889/Y7IWKuHeXvoJ", nsfw: "" }
+        links: { j189: "https://direct-link.net/1439889/9NHYsvGS3MRL", j121: "", bedrock: "https://link-hub.net/1439889/Y7IWKuHeXvoJ", nsfw: "https://www.patreon.com/collection/2118196?view=expanded" }
     },
     {
         name: "Alya",
@@ -105,7 +105,7 @@ const allPacks = [
         yt: "eIDiNaPJCdM",
         thumb: "https://img.youtube.com/vi/eIDiNaPJCdM/maxresdefault.jpg",
         tags: { origin: "Alya Sometimes Hides Her Feelings in Russian", color: "Cyan", res: "16x", char: "Alya" },
-        links: { j189: "https://link-center.net/1439889/OAefVBxzQGCU", j121: "", bedrock: "https://link-center.net/1439889/NbfIf0pfysAN", nsfw: "https://www.patreon.com/posts/alya-18-texture-155908330" }
+        links: { j189: "https://link-center.net/1439889/OAefVBxzQGCU", j121: "", bedrock: "https://link-center.net/1439889/NbfIf0pfysAN", nsfw: "https://www.patreon.com/collection/2118196?view=expanded" }
     },
        {
         name: "Hayase Nagatoro (Christmas)",
