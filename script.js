@@ -231,7 +231,7 @@ const allPacks = [
         yt: "utw4ozzHdWE", 
         thumb: "https://img.youtube.com/vi/utw4ozzHdWE/maxresdefault.jpg",
         tags: { origin: "Oshi no Ko", color: "Cyan", res: "256x", char: "Akane Kurokawa" },
-        links: { j189: "https://link-hub.net/1439889/d71KdDONX5Gp", j121: "", bedrock: "https://direct-link.net/1439889/blxPKjWdLISN", nsfw: "" }
+        links: { j189: "https://link-hub.net/1439889/d71KdDONX5Gp", j121: "", bedrock: "https://direct-link.net/1439889/blxPKjWdLISN", nsfw: "https://www.patreon.com/posts/156099801" }
     },
      {
         name: "Kana Arima",
@@ -240,7 +240,7 @@ const allPacks = [
         yt: "4OvEjLOBKZE", 
         thumb: "https://pe56d.s3.amazonaws.com/o_1h4eqmb811mt78nu1pc1ot8n9i15.png",
         tags: { origin: "Oshi no Ko", color: "Red", res: "16x", char: "Kana Arima" },
-        links: { j189: "https://link-hub.net/1439889/qP5wiCWZhAmp", j121: "", bedrock: "https://link-hub.net/1439889/9N64SZnsHQmR", nsfw: "" }
+        links: { j189: "https://link-hub.net/1439889/qP5wiCWZhAmp", j121: "", bedrock: "https://link-hub.net/1439889/9N64SZnsHQmR", nsfw: "https://www.patreon.com/posts/156099281" }
     },
     {
         name: "Ai Hoshino",
