@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading... | Misumeh</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #a855f7;
+            --accent-glow: rgba(168, 85, 247, 0.3);
+            --bg: #0b0b0d;
+            --surface: #121215;
+            --text-main: #ffffff;
+            --text-dim: #8e8e93;
+            --border: rgba(255, 255, 255, 0.08);
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .page-wrapper { padding: 0 5%; max-width: 1800px; }
+
+        /* --- NAVIGATION --- */
+        .top-nav { position: absolute; top: 3rem; left: 5%; z-index: 100; }
+        .back-link {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 0.7rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: 0.3s;
+        }
+        .back-link:hover { color: #fff; transform: translateX(-8px); }
+
+        /* --- HERO --- */
+        .hero {
+            position: relative;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, var(--bg) 0%, rgba(11,11,13,0.85) 45%, transparent 100%);
+            z-index: 1;
+        }
+        .hero-content { position: relative; z-index: 10; width: 100%; animation: revealLeft 0.8s ease-out forwards; }
+        .hero-content h1 {
+            font-size: clamp(4rem, 14vw, 9rem);
+            font-weight: 800;
+            margin: 0;
+            line-height: 0.8;
+            letter-spacing: -6px;
+            text-transform: uppercase;
+        }
+        .hero-desc {
+            font-size: 1.4rem;
+            color: var(--text-dim);
+            max-width: 550px;
+            margin-top: 2.5rem;
+            line-height: 1.5;
+            border-left: 3px solid var(--accent);
+            padding-left: 2rem;
+        }
+
+        /* --- MAIN GRID --- */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 420px;
+            gap: 6rem;
+            margin-top: -15vh;
+            position: relative;
+            z-index: 20;
+            padding-bottom: 5rem;
+        }
+        .video-box { background: #000; border: 1px solid var(--border); aspect-ratio: 16/9; box-shadow: 0 60px 120px rgba(0,0,0,0.9); }
+        .video-box iframe { width: 100%; height: 100%; border: none; }
+
+        .feature-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem; }
+        .feature-card { background: var(--surface); padding: 2.2rem; border: 1px solid var(--border); }
+        .feature-card label { display: block; color: var(--accent); font-size: 0.65rem; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.8rem; }
+        .feature-card p { margin: 0; font-size: 1.3rem; font-weight: 700; }
+
+        /* --- SIDEBAR --- */
+        .sidebar { position: sticky; top: 4rem; height: fit-content; }
+        .db-card { background: var(--surface); border: 1px solid var(--border); overflow: hidden; }
+        .db-header { background: rgba(255, 255, 255, 0.02); padding: 1.8rem 2.2rem; border-bottom: 1px solid var(--border); }
+        .db-header h3 { font-size: 1rem; font-weight: 900; margin: 0; letter-spacing: 2px; }
+        .db-header p { font-size: 0.65rem; color: var(--text-dim); margin-top: 6px; text-transform: uppercase; }
+
+        .dl-list { padding: 1.8rem; display: flex; flex-direction: column; gap: 10px; }
+        .dl-slot {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 1.2rem; background: rgba(255,255,255,0.01);
+            border: 1px solid var(--border); text-decoration: none; transition: 0.3s;
+        }
+        .dl-slot:hover { background: rgba(255,255,255,0.04); border-color: var(--text-dim); transform: scale(1.01); }
+        .slot-meta span { display: block; font-size: 0.8rem; font-weight: 800; color: #fff; }
+        .slot-meta small { font-size: 0.6rem; color: #ffb84e; font-weight: 800; }
+
+        .premium-action {
+            margin: 1.8rem; margin-top: 0; padding: 2rem;
+            background: var(--accent); text-decoration: none; display: block; text-align: center; transition: 0.3s;
+        }
+        .premium-action:hover { filter: brightness(1.1); transform: translateY(-4px); }
+        .premium-action h4 { color: #fff; margin: 0; font-size: 1rem; font-weight: 900; }
+        .premium-action p { color: rgba(255,255,255,0.85); margin: 6px 0 0 0; font-size: 0.7rem; font-weight: 700; }
+
+        /* --- RECOMMENDATIONS --- */
+        .recs-section { margin-top: 0.1rem; padding-bottom: 0.1rem; }
+        .recs-header { margin-bottom: 2.5rem; display: flex; align-items: center; gap: 20px; }
+        .recs-header h2 { font-size: 1.5rem; font-weight: 900; letter-spacing: 2px; margin: 0; text-transform: uppercase; }
+        .recs-header .line { height: 2px; flex-grow: 1; background: var(--border); }
+
+        .recs-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+        .rec-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            text-decoration: none;
+            color: inherit;
+            transition: 0.4s cubic-bezier(0.2, 1, 0.3, 1);
+        }
+        .rec-card:hover { border-color: var(--accent); transform: translateY(-10px); }
+        .rec-thumb { width: 100%; aspect-ratio: 16/9; background-size: cover; background-position: center; }
+        .rec-info { padding: 1.5rem; }
+        .rec-info h4 { margin: 0; font-size: 1rem; font-weight: 800; text-transform: uppercase; }
+        .rec-info span { font-size: 0.65rem; color: var(--accent); font-weight: 800; letter-spacing: 1px; }
+
+        @keyframes revealLeft { from { opacity: 0; transform: translateX(-50px); } to { opacity: 1; transform: translateX(0); } }
+
+        @media (max-width: 1250px) {
+            .main-grid { grid-template-columns: 1fr; margin-top: 2rem; }
+            .recs-grid { grid-template-columns: repeat(2, 1fr); }
+            .page-wrapper { padding: 0 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="content"></div>
+
+<script>
+    async function init() {
+        const container = document.getElementById('content');
+        try {
+            const res = await fetch('packs.json?v=' + Date.now());
+            const packs = await res.json();
+            const id = new URLSearchParams(window.location.search).get('id');
+            const pack = packs.find(p => String(p.id) === String(id));
+
+            if (!pack) {
+                container.innerHTML = "<h1 style='padding:10rem'>Pack Not Found</h1>";
+                return;
+            }
+
+            document.title = `${pack.name} — Misumeh`;
+
+            // Tags display
+            const t = pack.tags || {};
+            const keys = ['origin', 'color', 'res'];
+            let featureHtml = '';
+            keys.forEach(key => {
+                if(t[key]) {
+                    featureHtml += `<div class="feature-card"><label>${key}</label><p>${t[key]}</p></div>`;
+                }
+            });
+
+            // Distribution Slots
+            let slots = '';
+            const l = pack.links;
+            const icon = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>';
+            
+            if(l.j189) slots += `<a href="${l.j189}" target="_blank" class="dl-slot"><div class="slot-meta"><span>JAVA 1.8.9</span><small>AD-SUPPORTED</small></div>${icon}</a>`;
+            if(l.j121) slots += `<a href="${l.j121}" target="_blank" class="dl-slot"><div class="slot-meta"><span>JAVA 1.21+</span><small>AD-SUPPORTED</small></div>${icon}</a>`;
+            if(l.bedrock) slots += `<a href="${l.bedrock}" target="_blank" class="dl-slot"><div class="slot-meta"><span>BEDROCK</span><small>AD-SUPPORTED</small></div>${icon}</a>`;
+            if(l.nsfw) slots += `<a href="${l.nsfw}" target="_blank" class="dl-slot" style="background:rgba(248,113,113,0.05);border-color:#450a0a"><div class="slot-meta"><span style="color:#f87171">NSFW EDITION</span><small style="color:#a855f7">PATREON ONLY</small></div>${icon}</a>`;
+
+            // Recommendations Logic (Shuffle and take 4 excluding current)
+            const recs = packs.filter(p => String(p.id) !== String(id)).sort(() => 0.5 - Math.random()).slice(0, 4);
+            let recsHtml = '';
+            recs.forEach(r => {
+                recsHtml += `
+                    <a href="pack.html?id=${r.id}" class="rec-card">
+                        <div class="rec-thumb" style="background-image: url('${r.thumb}')"></div>
+                        <div class="rec-info">
+                            <span>${r.tags.res || 'TEXTURE PACK'}</span>
+                            <h4>${r.name}</h4>
+                        </div>
+                    </a>
+                `;
+            });
+
+            container.innerHTML = `
+                <nav class="top-nav">
+                    <a href="index.html" class="back-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                        Catalog
+                    </a>
+                </nav>
+
+                <header class="hero" style="background-image: url('${pack.thumb}');">
+                    <div class="page-wrapper">
+                        <div class="hero-content">
+                            <h1>${pack.name}</h1>
+                            <p class="hero-desc">${pack.desc}</p>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="page-wrapper">
+                    <div class="main-grid">
+                        <main>
+                            <div class="video-box">
+                                <iframe src="https://www.youtube-nocookie.com/embed/${pack.yt}?rel=0&modestbranding=1" allowfullscreen></iframe>
+                            </div>
+                            <div class="feature-row">${featureHtml}</div>
+                        </main>
+
+                        <aside class="sidebar">
+                            <div class="db-card">
+                                <div class="db-header">
+                                    <h3>DISTRIBUTION</h3>
+                                    <p>Select Version</p>
+                                </div>
+                                <div class="dl-list">${slots}</div>
+                                <a href="https://www.patreon.com/c/MisuPacks" target="_blank" class="premium-action">
+                                    <h4>JOIN PATREON</h4>
+                                    <p>BYPASS ADS • UNLOCK LIBRARY • DIRECT DOWNLOADS</p>
+                                </a>
+                            </div>
+                        </aside>
+                    </div>
+
+
+                    <section class="recs-section">
+                        <div class="recs-header">
+                            <h2>Checkout more packs</h2>
+                            <div class="line"></div>
+                        </div>
+                        <div class="recs-grid">${recsHtml}</div>
+                    </section>
+                </div>
+
+                <footer style="padding:50px 0; border-top:1px solid var(--border); text-align:center; opacity:0.1; font-weight:800; letter-spacing:10px; font-size:0.6rem;">
+                    MISUMEH — ANIME TEXTURE PACKS
+                </footer>
+            `;
+        } catch (e) {
+            container.innerHTML = "<h1 style='padding:10rem; text-align:center;'>Critical Error</h1>";
+        }
+    }
+    init();
+</script>
+</body>
+</html>
